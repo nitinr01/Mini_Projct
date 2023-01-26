@@ -1,0 +1,119 @@
+.homePageWrapper{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(23, 52, 134);
+
+}
+
+.formWrapper{
+  background-color: #fcfcfc;
+  padding: 20px;
+  border:  10px;
+  width: 300px;
+  max-width: 90%;
+
+}
+footer{
+  position: fixed;
+  bottom: 0;
+}
+footer a{
+  color: rgb(42, 22, 223);
+}
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+}
+.mainLabel{
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.homePageLogo{
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+.inputBox{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: rgb(197, 194, 241);
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+}
+.joinBtn{
+  background-color: rgb(94, 94, 233);
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover{
+  background: #b5a5ec;
+}
+.createInfo{
+  margin: 0 auto;
+  margin-top: 20px;
+ 
+}
+.createNewbtn{
+  color: #1e1470;
+  text-decoration: none;
+  border-bottom: 1px solid #1a144d;
+  transition: all 0.3s ease-in-out;
+}
+.createNewBtn:hover,
+footer a:hover {
+  color: #a198eb;
+  border-color: #9685ca;
+}
+.logoimage{
+
+  height: 140px;
+  margin-bottom: 3px;
+
+}
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+}
+
+.aside{
+  background: #f9f9fc;
+  padding: 16px;
+  color: #7468e2;
+  display: flex;
+  flex-direction: column;
+}
+.asideInner{
+  flex: 1;
+  
+}
+.clientsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.userName{
+  margin-top: 10px;
+}
